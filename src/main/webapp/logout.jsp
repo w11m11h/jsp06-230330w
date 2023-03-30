@@ -10,6 +10,6 @@
 	<%
 		session.invalidate(); // 모든 세션 삭제
 	%>
-		<a href="logoutCheck.jsp">로그인 여부 체크</a>
+		<a href="loginCheck.jsp">로그인 여부 체크</a>
 </body>
 </html>
