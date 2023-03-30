@@ -12,7 +12,7 @@
 		String mpw = request.getParameter("memberPw");
 		
 		if(mid.equals("black") && mpw.equals("12345")) {
-			session.setAttribute("sessionId", mid);
+			session.setAttribute("sessionId", mid);			
 			session.setMaxInactiveInterval(60); // 세션의 유효시간을 1분으로 설정
 			response.sendRedirect("loginCheck.jsp");
 			// 로그인 성공하면 loginCheck.jsp로 바로 이동
